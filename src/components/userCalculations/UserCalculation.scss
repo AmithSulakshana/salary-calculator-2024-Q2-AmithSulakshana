@@ -1,0 +1,87 @@
+.user-calculation-main{
+    width: 480px;
+    min-height: 580px;
+    border: 1px solid $white1;
+    border-radius: 8px;
+    background: $basewhite;
+    padding: 10px;
+
+    @media #{$xs} {
+        width: 95%;
+    }
+
+    .salary-header{
+        font-family: $Inter;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        color: $baseblack;
+    }
+
+    .calculation-div1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: $Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        color: $ash1;
+    }
+
+    .calculation-div2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: $Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: $baseblack;
+
+        .calculation-para{
+            margin: 8px 0;
+        }
+    }
+
+    .calculation-div3{
+        height: 56px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: $Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        border: 1px solid $white1;
+        border-radius: 8px;
+        padding: 0 10px 0 10px;
+        margin-top: 10px;
+        color: $baseblack;
+
+    }
+
+    .contribution-para{
+        font-family: $Inter;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        color: $ash1;
+    }
+
+    .calculation-div4{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-family: $Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: $baseblack;
+        padding-top: 15px;
+
+        .calculation-para{
+            margin: 8px 0;
+        }
+    }
+}

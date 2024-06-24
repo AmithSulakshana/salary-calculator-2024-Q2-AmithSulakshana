@@ -1,0 +1,58 @@
+.user-data-main{
+    width: 680px;
+    min-height:580px;
+    border: 1px solid $white1;
+    border-radius: 8px;
+    padding: 10px;
+
+    @media #{$xs} {
+        width: 95%;
+        min-height: 540px;
+    }
+
+
+    .employ-header-div{
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+    
+           .employ-header{
+               font-family: $Inter;
+               font-size: 20px;
+               font-weight: 700;
+               line-height: 32px;
+               color: $baseblack;
+         
+           }
+    
+           .reset-div{
+              width: 66px;
+              height: 40px;
+              cursor: pointer;
+           }
+        }
+    
+        .basic-salary{
+            .basic-salary-text{
+                font-family: $Inter;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 24px;
+                color: $baseblack;
+            }
+    
+            .basic-salary-input{
+                width: 356px;
+                height: 48px;
+                border: 1px solid $white1;
+                outline: none;
+                border-radius: 4px;
+                padding-left: 10px;
+                
+                @media #{$xs} {
+                  width: 90%;
+                }
+          
+            }
+        }
+}
